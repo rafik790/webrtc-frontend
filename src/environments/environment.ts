@@ -3,8 +3,9 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false,
-  wsEndpoint: 'ws://3.110.148.160/rtc/',
+  production: false,  
+	SOCKET_ENDPOINT: 'http://localhost:3002',
+  wsEndpoint: 'wss://<replace-with-real>:443/ws/',
   RTCPeerConfiguration: {
     iceServers: [
       {

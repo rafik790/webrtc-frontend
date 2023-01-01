@@ -1,5 +1,6 @@
 export const environment = {
-  production: true,
+  production: true,  
+	SOCKET_ENDPOINT: 'http://localhost:3002',
   wsEndpoint: 'wss://<replace-with-real>:443/ws/',
   RTCPeerConfiguration: {
     iceServers: [
